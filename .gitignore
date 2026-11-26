@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+
+# Testing & type checking
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Data, checkpoints & logs
+data/
+saved_models/
+lightning_logs/
+
+# Local report (may contain personal information such as name/student ID)
+REPORT.md
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
